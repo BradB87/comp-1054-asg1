@@ -1,0 +1,245 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'ambleitalic';
+    src: url('assets/Amble-Italic-webfont.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+    
+    font-family: 'open_sanssemibold';
+    src: url('assets/OpenSans-Semibold-webfont.woff') format('woff');    
+    font-weight: normal;
+    font-style: normal;
+
+}
+html {
+   justify-content: center;
+   font-size: 12px;
+   
+}
+.piccontainer{
+    width:  200px;
+    height: 200px;
+    float: left;
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    filter: contrast(2);
+}
+body {
+    color: blue;
+    background: url(./image/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg);
+    font-family: 'ambleitalic', serif;
+
+}
+body + p{
+    background-color: white;
+}
+
+p {
+     font-family:'open_sanssemibold', Verdana, Geneva;
+    max-width:70vw;
+    color: blue;
+    line-height: 2em;
+    font-size: 12px;
+    word-wrap: wrap;
+    text-indent: 4px;
+    padding: 10px;
+
+}
+
+p::first-line {
+    color: blue;
+}
+
+h1 {
+    font-family:'Mynerve', cursive;
+    width: 100px;
+    height: 87px;
+    padding: 2em;
+    font-size: 20px;
+
+
+}
+.summary{
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    border: 2px solid;
+    text-align: center;
+    background-color: #fff;
+    font-size: 2rem;
+}
+h2[target] {
+    width: 200px;
+    height: 18px;
+    flex-wrap: wrap;
+   
+}
+
+ body,
+ h3 {
+    background-color: #fff;
+    word-wrap: inherit;
+    margin-bottom: 0;
+    color: blue;
+    justify-content: center;
+    display: flex;
+    border: 2px solid blue;
+    font-size: 1.5rem;
+}
+/* a links*/
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #7f8fa6;
+}
+
+a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color:#7f8fa6;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: underline;
+    color: #353b48;
+}
+
+abbr {
+    border-bottom: none;
+    color: #2f3640;
+    text-decoration: bold;
+}
+
+
+/* divs */
+.page-wrapper {
+    background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left;
+    margin: 0;
+    position: relative;
+
+}
+
+#intro {
+    justify-content: center;
+    padding-left: 10em;
+    
+}
+
+header {
+    background: url(http://csszengarden.com/001/h1.gif) no-repeat top center;
+    width: 300px;
+    height: 300px;
+    padding-right: 600px;
+    justify-content: left;
+    
+
+}
+
+/* footer links*/
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #2f3640;
+    justify-content: center;
+    display: flex;
+    flex-direction:inherit;
+    font-size: 15px;
+
+}
+
+footer a:link,
+footer a:visited {
+    margin-right: 20px;
+    text-align: center;
+}
+/*sidebar */
+
+.sidebar {
+    margin-left: 800px;
+    height: 300px;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 40px;
+
+}
+
+.sidebar .wrapper {
+    background-color: #d1d8e0;
+    padding: 30px;
+    margin-left: 150px;
+    width: 80px;
+}
+
+.sidebar h3.select {
+    background: url(http://csszengarden.com/001/h3.gif) no-repeat top left;
+    margin: 10px 0 5px 0;
+    width: 97px;
+    height: 16px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+}
+
+.sidebar h3.archives {
+    background: url(http://csszengarden.com/001/h5.gif) no-repeat top left;
+    margin: 25px 0 5px 0;
+    width: 57px;
+    height: 14px;
+    color: #353b48;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+}
+
+.sidebar h3.resources {
+    background: url(http://csszengarden.com/001/h6.gif) no-repeat top left;
+    margin: 25px 0 5px 0;
+    width: 63px;
+    height: 10px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    line-height: 1.3em;
+    background: url(http://csszengarden.com/001/cr1.gif) no-repeat top center;
+    display: block;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+.sidebar li a:link {
+    color: #7f8fa6;
+}
+
+.sidebar li a:visited {
+    color: #fff;
+}
+
+
+p:nth-child(even) {
+text-indent: 2rem;
+    
+
+
+}
